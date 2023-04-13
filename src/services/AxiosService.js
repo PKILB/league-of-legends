@@ -6,8 +6,8 @@ export const api = Axios.create({
 })
 
 export const riotAPI = Axios.create({
-  baseURL: 'https://cors-anywhere.herokuapp.com/corsdemo/https://americas.api.riotgames.com/',
+  baseURL: 'https://cors-anywhere.herokuapp.com/https://americas.api.riotgames.com/',
   timeout: '5000',
-  params: { 'api_key': 'RGAPI-400bcc25-ff91-4db9-9213-f1c37db9891d'}
+  params: { 'api_key': 'RGAPI-68eb5315-2019-4377-b356-ff53e0a0fd83'}
 })
 

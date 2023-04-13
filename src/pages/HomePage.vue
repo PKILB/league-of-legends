@@ -3,7 +3,7 @@
     <div class="row pt-3">
       <div class="col-12 d-flex justify-content-center">
         <h1>
-          Kilial
+          {{ leagueAccount.name }}
         </h1>
       </div>
     </div>
@@ -21,6 +21,8 @@ import { logger } from '../utils/Logger.js';
 import { leagueAccountsService } from '../services/LeagueAccountsService.js'
 import Pop from '../utils/Pop.js';
 import { onMounted } from 'vue';
+import { computed } from '@vue/reactivity';
+import { AppState } from '../AppState.js';
 
 export default {
   setup() {
@@ -37,7 +39,9 @@ export default {
       getLeagueAccount()
     })
 
-    return {}
+    return {
+      leagueAccount: computed(() => AppState.leagueAccount)
+    }
   }
 }
 </script>
