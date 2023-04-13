@@ -1,11 +1,11 @@
 <template>
-  <header>
+  <header class="bg-dark">
     <Navbar />
   </header>
-  <main>
+  <main class="bg-custom-grey">
     <router-view />
   </main>
-   <footer class="bg-dark text-light">
+   <footer class="bg-grey">
     Made with 💖 by CodeWorks
   </footer>
 </template>
