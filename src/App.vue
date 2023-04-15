@@ -1,11 +1,12 @@
 <template>
-  <header class="bg-dark">
+  <!-- <header class="bg-dark">
     <Navbar />
-  </header>
+  </header> -->
   <main class="bg-custom-grey">
+    
     <router-view />
   </main>
-   <footer class="bg-grey">
+   <footer class="bg-light">
     Made with 💖 by CodeWorks
   </footer>
 </template>
@@ -36,5 +37,9 @@ footer {
   display: grid;
   place-content: center;
   height: 32px;
+}
+
+.contain {
+  width: 100vw;
 }
 </style>

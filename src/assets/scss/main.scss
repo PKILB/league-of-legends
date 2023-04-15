@@ -42,7 +42,6 @@ form:invalid button[type="submit"] {
 }
 
 .bg-custom-grey {
-  background: #cf8728;
-  background: -webkit-linear-gradient(to bottom, #535054, #dbb887, #f48713 );
-background: linear-gradient(to bottom, #535054, #dbb887, #f48713);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 19.79%, rgba(112, 43, 43, 0) 73.96%, rgba(115, 46, 42, 0.00520833) 99.99%);
+background-blend-mode: luminosity;
 }

@@ -1,5 +1,10 @@
 <template>
   <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 m-auto d-flex justify-content-center">
+        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_7.jpg" class="bg-image" alt="">
+      </div>
+    </div>
     <div class="row pt-3">
       <div class="col-12 d-flex justify-content-center">
         <h1>
@@ -70,5 +75,13 @@ export default {
   background-size: cover;
   // height: 60vh;
   // width: 80vh;
+}
+
+.bg-image {
+  background-size: cover;
+  width: 100vw;
+  // background-position: absolute;
+  // width: fit-content;
+  // height: fit-content;
 }
 </style>
