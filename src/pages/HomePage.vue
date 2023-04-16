@@ -14,7 +14,7 @@
     </div>
     <div class="row d-flex justify-content-center">
       <div class="col-4 d-flex justify-content-center">
-        <img class="img-height img-fluid" src="ranked-emblem/emblem-silver.png" alt="">
+        <!-- <img class="img-height img-fluid" src="ranked-emblem/emblem-silver.png" alt=""> -->
       </div>
     </div>
   </div>
